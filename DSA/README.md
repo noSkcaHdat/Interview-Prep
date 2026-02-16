@@ -9,10 +9,10 @@ Core data structures and algorithm problems organized by topic.
 - [Maximum Subarray](Arrays/maximum-subarray.md) - Kadane's algorithm
 
 ### Linked Lists
-Coming soon...
+- [Reverse Linked List](LinkedLists/reverse-linked-list.md) - In-place reversal with three pointers
 
 ### Trees
-Coming soon...
+- [Binary Tree Level Order Traversal](Trees/level-order-traversal.md) - BFS with queue
 
 ### Graphs
 Coming soon...

@@ -15,10 +15,10 @@ You are given an array of n integers. In one operation, you can remove either th
 ### Example 1:
 ```
 Input: n = 3, arr = [1, 3, 2]
-Output: 1
-Explanation: Remove the maximum (3), leaving [1, 2]. Then remove max (2), leaving [1, 1]. Total = 2 operations.
-Or remove minimum (1), leaving [3, 2]. Then remove min (2), leaving [3, 3]. Total = 2 operations.
-Actually, best is to keep the element with highest frequency.
+Output: 2
+Explanation: All elements are distinct. Keep any one element with max frequency (all have frequency 1).
+Need to remove 2 elements to make all remaining equal.
+For example: remove 3 and 2, leaving [1]; or remove 1 and 3, leaving [2].
 ```
 
 ### Example 2:

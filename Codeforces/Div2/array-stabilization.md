@@ -16,14 +16,17 @@ You are given an array of n integers. In one operation, you can remove either th
 ```
 Input: n = 3, arr = [1, 3, 2]
 Output: 1
-Explanation: Remove either 1 or 3, leaving [2, 2] or [1, 1] or [3, 3] depending on which two we keep
+Explanation: Remove the maximum (3), leaving [1, 2]. Then remove max (2), leaving [1, 1]. Total = 2 operations.
+Or remove minimum (1), leaving [3, 2]. Then remove min (2), leaving [3, 3]. Total = 2 operations.
+Actually, best is to keep the element with highest frequency.
 ```
 
 ### Example 2:
 ```
 Input: n = 4, arr = [1, 2, 3, 4]
-Output: 2
-Explanation: Remove 1 and 4, leaving [2, 3] then remove one more to get equal elements
+Output: 3
+Explanation: All elements are unique, so we need to remove n-1 = 3 elements to make all remaining equal.
+Keep any one element (e.g., keep 2), remove the other 3 elements.
 ```
 
 ### Example 3:

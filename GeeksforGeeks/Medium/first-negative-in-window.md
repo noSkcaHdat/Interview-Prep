@@ -7,7 +7,7 @@ Given an array and a positive integer k, find the first negative integer for eac
 ## Source
 
 - **Platform**: GeeksforGeeks
-- **Difficulty**: Easy
+- **Difficulty**: Medium
 - **Link**: https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k/
 
 ## Examples
